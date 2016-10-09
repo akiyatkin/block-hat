@@ -1,0 +1,12 @@
+{
+	"tpl":"-block-hat/hat.tpl",
+	"json":"~blocks/hat.json",
+	"domready":true,
+	"divs":{
+		"block-hat-menu":{
+			"tpl":"-block-hat/hat.tpl",
+			"tplroot":"MENU",
+			"json":"~blocks/menu.json"
+		}
+	}
+}

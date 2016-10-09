@@ -1,0 +1,6 @@
+{
+	"name":"akiyatkin/block-hat",
+	"require":{
+		"infrajs/controller":"~1"
+	}
+}
