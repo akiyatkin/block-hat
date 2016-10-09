@@ -1,5 +1,5 @@
 {root:}
-	<nav class="container" style="padding:15px 0; font-size:16px; font-family:Arial">
+	<nav class="container" style="padding-bottom:15px; padding-top:15px; font-size:16px; font-family:Arial">
 		<div style="float:left; width:310px;">
 			<table>
 				<tr>
@@ -35,6 +35,7 @@
 		<style scoped>
 			.block-hat-menu .child {
 				position:absolute;
+				z-index:1;
 			}
 			.block-hat-menu ul {
 	    		padding: 0;
@@ -49,7 +50,6 @@
 			}
 			.block-hat-menu a {
 				text-decoration: none;
-				
 				color:black;
 				padding-left:25px;
 			    position: relative;
@@ -72,6 +72,13 @@
 			}
 			.block-hat-menu .dropdown-menu small {
 				color:gray;
+			}
+			@media (max-width: 768px) {
+				.block-hat-menu a {
+					margin-top:10px;
+					padding-right:15px;
+					padding-left:10px;
+				}
 			}
 		</style>
 		<ul>
