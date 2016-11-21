@@ -5,7 +5,7 @@
 				<tr>
 					<td>
 						<a href="/">
-							<img style="margin-right:10px" height="80" src="/-imager/?src={data.logo}&amp;h=80">
+							<img alt="Логотип" style="margin-right:10px" height="80" src="/-imager/?src={data.logo}&amp;h=80">
 						</a>
 					</td>
 					<td style="vertical-align: bottom">
@@ -19,7 +19,7 @@
 				<tr>
 					<td style="text-align:right;">
 						<span style="white-space: nowrap">{data.top}</span><br>
-						<nobr style="font-size:22px; color:black">{data.phone}</nobr>
+						<span style="white-space: nowrap; font-size:22px; color:black">{data.phone}</span>
 					</td>
 				</tr>
 				<tr>
