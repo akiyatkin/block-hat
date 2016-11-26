@@ -105,7 +105,7 @@
 		{label:}<small>{label}</small><br>
 		{sub:}
 			<li class="dropdown">
-				<a onclick="return false" infra="false" href="{href}" class="dropdown-toggle"
+				<a onclick="return false" data-crumb="false" href="{href}" class="dropdown-toggle"
 					 data-toggle="dropdown" role="button" 
 					 aria-expanded="false">{title} <span class="caret"></span>
 				</a>
