@@ -19,7 +19,7 @@
 				<tr>
 					<td style="text-align:right;">
 						<span style="white-space: nowrap">{data.top}</span><br>
-						<span style="white-space: nowrap; font-size:22px; color:black">{data.phone}</span>
+						<span class="magic-phone" style="white-space: nowrap; font-size:22px; color:black">{data.phone}</span>
 					</td>
 				</tr>
 				<tr>
